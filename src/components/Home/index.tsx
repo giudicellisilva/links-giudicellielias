@@ -10,7 +10,7 @@ import CheckboxCustomized from "components/CheckboxCustomized";
 
 const Home = () =>{
 
-    const [checkd, setCheckd] = useState(false);
+    const [checkd, setCheckd] = useState(true);
 
     return(
         <div className={`${style.home} ${checkd ? style.darkMode : "" }`}>

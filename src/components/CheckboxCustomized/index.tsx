@@ -7,7 +7,7 @@ interface CheckboxCustomizedProps{
 
 const CheckboxCustomized = ({setCheckd} : CheckboxCustomizedProps) =>{    
 
-    const [inputCheck, setInputCheck] = useState(false);
+    const [inputCheck, setInputCheck] = useState(true);
 
     useEffect(() =>{
         setCheckd(inputCheck);
