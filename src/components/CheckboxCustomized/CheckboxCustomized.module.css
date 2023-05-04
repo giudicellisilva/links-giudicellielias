@@ -1,0 +1,38 @@
+.label{
+    display: block;
+    width: 60px;
+    height: 27px;
+    background-color: var(--color-primary);
+    border: 2px solid var(--color-secondary);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0 auto;
+
+    position: relative;
+    left: 140px;
+
+    cursor: pointer;
+}
+
+.label__input{
+    display: none;
+}
+
+.label__button{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: var(--color-secondary);
+    border-radius: 50%;
+    left: 1px;
+    z-index: 10;
+    transition: transform .5s ease-in-out;
+    transform: translateX(-50%);
+}
+
+.label__input:checked + .label__button{
+    transform: translateX(50%);
+}

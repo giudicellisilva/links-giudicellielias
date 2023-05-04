@@ -1,0 +1,39 @@
+.link{
+    width: 375px;
+    border-radius: 15px;
+    padding: 10px 15px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    
+    color: var(--color-text);
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+
+    transition: all .4s;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link:link, link:visited, link:active{    
+    color: var(--color-text);
+
+}
+
+.link:hover{
+    transform: scale(1.1);
+}
+
+.link__img{
+    height: 25px;
+    color: var(--color-text);
+}
+
+.link__title{
+    margin: 0;
+    flex: 1;
+}

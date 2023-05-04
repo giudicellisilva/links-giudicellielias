@@ -1,0 +1,27 @@
+.home{
+    background-image: var(--background-img);
+    background-size: cover;
+    padding-top: 185px;
+    height: calc(100vh - 185px);
+
+    transition: color .4s;
+
+}
+
+.home__links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+
+    margin-top: 94px;
+
+}
+
+.darkMode{
+    --color-primary: #a6a9ad;
+    --color-secondary: #212121;
+    --color-text: #a6a9ad;
+    --background-img: url("../../img/8456421.jpg");
+}
