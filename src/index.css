@@ -5,12 +5,13 @@
   --color-primary: #898989;
   --color-secondary: #1b2328;
   --color-text: #898989;
+  --background: #dcdcdc;
   --background-img: url("img/rm222-mind-24.jpg");
 }
 
 body{
+  min-height: 100vh;
   margin: 0;
   font-family: 'Roboto Mono', monospace;
-  box-shadow: none;
 
 }
