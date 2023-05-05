@@ -25,3 +25,11 @@
     --color-text: #a6a9ad;
     --background-img: url("../../img/8456421.jpg");
 }
+
+@media screen and (max-width: 980px){
+
+    .home{
+        min-width: 400px;
+        padding: 185px 50px 0 50px;
+    }
+}

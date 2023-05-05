@@ -37,3 +37,11 @@
     margin: 0;
     flex: 1;
 }
+
+@media screen and (max-width: 980px){
+
+    .link{
+        width: 100%;
+    }
+}
+
