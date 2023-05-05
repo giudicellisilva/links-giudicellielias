@@ -2,6 +2,7 @@
     background-image: var(--background-img);
     background-size: cover;
     padding-top: 185px;
+    width: 100wh;
     height: calc(100vh - 185px);
 
     transition: color .4s;
@@ -29,7 +30,7 @@
 @media screen and (max-width: 980px){
 
     .home{
-        min-width: 400px;
+        min-width: 500px;
         padding: 185px 50px 0 50px;
     }
 }
